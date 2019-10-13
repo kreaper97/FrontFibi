@@ -10,3 +10,6 @@ La idea principal del proyecto es reutilizar una pequeña idea que se trabajo de
 Se podrá gestionar unas "citas", en unos dias en concreto para poder impartir/recibir esa clase. El usuario podrá elegir entre una seleccion de clases que otros usuarios hayan creado. En futuras versiones se implantaria el poder evaluar a ese profesor para que asi los siguientes alumnos puedan ver que bien lo hace.
 
 Cabe decir que se ha hecho entre dos alumnos que queriamos aprovechar esta ocasión para conocer algunos limites y cualidades en este aspecto del desarrollo de proyectos.
+
+
+backend. https://github.com/MrNbr/BackendFibi
