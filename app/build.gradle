@@ -1,0 +1,83 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.chorbos.fibi"
+        minSdkVersion 22
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/services/javax.annotation.processing.Processor'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.multidex:multidex:2.0.0'
+    //noinspection GradleCompatible
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'androidx.annotation:annotation:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.android.gms:play-services-maps:12.0.1'
+    implementation 'com.google.android.gms:play-services-location:12.0.1'
+    implementation 'com.google.android.gms:play-services-analytics:12.0.1'
+    implementation 'com.google.firebase:firebase-core:12.0.1'
+    implementation 'com.google.firebase:firebase-messaging:12.0.1'
+    implementation 'com.firebase:firebase-jobdispatcher:0.8.5'
+    implementation 'com.airbnb.android:lottie:2.5.0'
+    implementation 'com.github.apl-devs:appintro:v4.2.2'
+    implementation 'com.github.medyo:fancybuttons:1.8.4'
+    implementation 'com.jakewharton:butterknife:10.0.0'
+    implementation 'androidx.navigation:navigation-fragment:2.0.0'
+    implementation 'androidx.navigation:navigation-ui:2.0.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.0.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.9.1'
+    implementation 'com.hannesdorfmann.mosby3:mvp:3.1.0'
+    implementation('io.nlopez.smartlocation:library:3.3.3') {
+        transitive = false
+    }
+    implementation 'com.github.hotchemi:permissionsdispatcher:3.1.0'
+    annotationProcessor "com.github.hotchemi:permissionsdispatcher-processor:3.1.0"
+    implementation 'io.realm:android-adapters:2.1.1'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation('com.wdullaer:materialdatetimepicker:3.5.1') {
+        exclude group: 'com.android.support'
+    }
+    implementation 'org.apache.poi:poi:3.15'
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'com.kbeanie:multipicker:1.1.31@aar'
+    implementation 'org.greenrobot:eventbus:3.1.1'
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
+
+    implementation 'com.gordonwong:material-sheet-fab:1.2.1'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.klinkerapps:sliding-activity:1.5.2'
+    implementation 'com.klinkerapps:peekview:1.2.3'
+    implementation 'com.google.android.gms:play-services-auth:12.0.1'
+}
+
+apply plugin: 'realm-android'
+apply plugin: 'com.android.application'

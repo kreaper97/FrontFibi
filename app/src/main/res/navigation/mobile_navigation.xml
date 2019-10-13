@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_profile">
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.chorbos.fibi.Features.main.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.chorbos.fibi.Features.main.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_add"
+        android:name="com.chorbos.fibi.Features.main.ui.add.AddFragment"
+        android:label="Add an Assignment"
+        tools:layout="@layout/fragment_add" />
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.chorbos.fibi.Features.main.ui.search.SearchFragment"
+        android:label="Search Assignments"
+        tools:layout="@layout/fragment_search" />
+</navigation>

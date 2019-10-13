@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "154370127246",
+    "firebase_url": "https://fibi-1858d.firebaseio.com",
+    "project_id": "fibi-1858d",
+    "storage_bucket": "fibi-1858d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154370127246:android:86b49845903291375fa0df",
+        "android_client_info": {
+          "package_name": "com.chorbos.fibi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154370127246-p8ni12a65a83d1i75r14mq9gg5et0lnf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chorbos.fibi",
+            "certificate_hash": "3e23dc342128f4fa222ed8de610f8ab98563dca0"
+          }
+        },
+        {
+          "client_id": "154370127246-5fc35aenv8lc8vu2s7l9hq9c7ilchv0p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa6jEe3sj3-Ii3ypHjmSZcfOBQSqYG4Nw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154370127246-5fc35aenv8lc8vu2s7l9hq9c7ilchv0p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

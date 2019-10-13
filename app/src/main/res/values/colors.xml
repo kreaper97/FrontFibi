@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#f55f00</color>
+    <color name="primaryDarkColor">#ff480e</color>
+    <color name="secondaryColor">#212121</color>
+    <color name="secondaryLightColor">#484848</color>
+    <color name="action_list_header_background">#efefef</color>
+
+    <!--base pallete for piechart-->
+
+    <!--FAB -->
+</resources>
