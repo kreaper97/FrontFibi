@@ -1,2 +1,2 @@
 # FrontFibi
-Fronend Android App for Fibi
+Frontend Android App for Fibi
